@@ -1,17 +1,44 @@
 body {
-    
-    background-color: white;
+    background-color: beige;
     color: black;
     font-size: 25px;
-    margin-top: 50px
-  }
-  
-  .dark-mode {
+}
+
+.dark-mode {
     background-color: black;
     color: white;
-  }
+}
+
+title {
+    font-size: 1000px;
+
+}
+
+h1 {
+    text-align: center;
+}
 
 h2 {
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+
+hr {
+    margin-top:100px ;
+    margin-bottom: 100px;
+    border-top: 4px solid rgb(232, 10, 10);
+}
+
+.new3 {
+    border-top: 4px solid white;
+}
+
+button{
+    margin-left: 4px;
+    
+}
+
+.devblog{
+    font-size: 40px;
 }
