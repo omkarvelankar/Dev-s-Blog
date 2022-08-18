@@ -19,62 +19,146 @@ element.classList.toggle("dark-mode");
 </script>
   
 
-  <title>Dev'Blog </title>
+  <title >Dev'Blog </title>
 </head>
-<body class="dark-mode">
+
+<body style="margin-top: 70px">
 
 
-  
 
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#">Dev's Blog</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          
-          
-          <form class="navbar-form navbar-left" action="/action_page.php">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-              <button type="submit" class="btn btn-default">Submit</button>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand devblog" href="#" >Dev's Blog</a>
             </div>
-            
-          </form>
-          
-          <li><button onclick="myFunction()"><span class="glyphicon glyphicon-adjust" style="size :40px;" ></span></button></li>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+
+
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control searchbar" placeholder="Search"
+                                style="width: 1100px; max-width: 100%;">
+                            <button type="submit" class="btn btn-default" >Submit</button>
+                        </div>
+
+                    </form>
+
+                    <li><button onclick="myFunction();" style="margin-top: 6px; " ><span
+                                class="glyphicon glyphicon-adjust"></span></button></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1>Web Basics</h1>
+
+        <p>Points covered:
+        <ul>
+            <li>What is a Website?</li>
+            <li>Types of Websites.</li>
+            <li>A simple HTML website.</li>
+            <li>How to Save an HTML file.</li>
         </ul>
-        
-      </div>
+
+
+        <h2>What is a Website? </h2>
+
+        <p>What is a website? have you ever wondered? Many of you might even know what is a web site and think what kind
+            of silly question is this?</p>
+
+
+        <p>Well, silly might it seems. But is very important to know.</p>
+
+        <p>A website is made of web pages. It needs a domain name and hosting.</p>
+
+        <h2>Types of Websites.</h2>
+
+        <u>
+            <h3>Static:</h3>
+        </u>
+
+        <p>A simple website where data does not needs to be updated frequently. Like Informational websites about
+            businesses, organizations, etc</p>
+
+        <u>
+            <h3>Dynamic:</h3>
+        </u>
+
+        <p>Dynamics websites are the websites where data is loaded from the backend.
+            It changes according to user permissions
+            .Websites like Facebook, LinkedIn, etc</p>
+
+        Things needed to develop a Static website:
+        A simple static website consisting of web pages can be made using a simple word editor like notepad(my personal
+        favorite).
+
+        <h2>A simple HTML website.</h2>
+        <p>Fire up a Simple Notepad and write down a simple HTML code as below <br> <br>
+            &lt; html&gt; <br>
+            &lt;head&gt; <br>
+            &lt;title&gt; Title of a Webpage &lt;/title&gt; <br>
+            &lt;/head&gt; <br>
+            &lt;body&gt;
+
+            <body> <br>
+                &lt;h1&gt;My First Website webpage &lt;/h1&gt; <br>
+                &lt;p&gt; Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum. &lt;/p&gt; <br>
+                &lt;/body&gt; <br>
+                &lt;/html&gt;
+
+
+                <h2>How to Save an HTML file.</h2>
+
+                <p>Save the File with the .html (do not forget . before the html ) extension and open that file in a
+                    browser like chrome, firefox, safari, etc.
+                </p>
+                <P>A browser is an application for accessing websites.
+                    And there you have it.</P>
+                <p>A simple HTML website.</p>
+
+
     </div>
-  </nav>
-    
-   <div class="container">
-    <h1>Wireframing</h1>
-    <p>Points covered:
-       <ul>
-        <li>What is a wireframe?</li>  
-        <li>What wireframes should include?</li>       
-        <li>What wireframes should not have?</li>  
-       </ul> 
-      
-        
-        
-       
-         <h2>What is a wireframe?</h2>
 
-         <p>Before manufacturing a car or constructing a building we need to build its design on paper.
-        Likewise before making a website we need to design it on paper.</p> 
+    <hr>
+
+    <div class="line"></div>
+
+    <div class="container">
+
+        <h1>Wireframing</h1>
+
+        <p>Points covered:
+        <ul>
+            <li>What is a wireframe?</li>
+            <li>What wireframes should include?</li>
+            <li>What wireframes should not have?</li>
+        </ul>
 
 
-         <p>Wireframing is the first initial step in designing a website. It is the blueprint of the design of the webpage.
+        <h2>What is a wireframe?</h2>
+
+        <p>Before manufacturing a car or constructing a building we need to build its design on paper.
+            Likewise before making a website we need to design it on paper.</p>
+
+
+        <p>Wireframing is the first initial step in designing a website. It is the blueprint of the design of the
+            webpage.
             One needs a basic understanding of wireframing for creating websites.
             It is like creating a skeleton.</p>
 
@@ -83,23 +167,22 @@ element.classList.toggle("dark-mode");
         <ul>
             <li>The type of content will be displayed on the web page (not the content itself)</li>
             <li>Structure and Layout of the Webpage. </li>
-            <li>User Stories and flow.</li> 
-           
-         </ul>
-        
-         <p></p>
+            <li>User Stories and flow.</li>
 
-         <h2>What it should not include?</h2>
-         <ul>
-            <li>Colors.</li> 
+        </ul>
+
+
+        <h2>What it should not include?</h2>
+        <ul>
+            <li>Colors.</li>
             <li>Texts.</li>
             <li>Images.</li>
-            </ul>
-        
-        
-        
-        
-  </div>
+        </ul>
+
+
+    </div>
+
 
 </body>
+
 </html>
