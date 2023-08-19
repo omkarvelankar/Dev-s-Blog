@@ -1,58 +1,11 @@
-
-
-.responsive {
-    width: 100%;
-    height: auto;
-    padding: px;
-
-  }
-
-
 body {
-    background-color: beige;
+    
+    background-color: white;
     color: black;
     font-size: 25px;
-}
-
-.dark-mode {
+  }
+  
+  .dark-mode {
     background-color: black;
     color: white;
-}
-
-title {
-    font-size: 1000px;
-
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    margin-top: 35px;
-    margin-bottom: 30px;
-}
-
-
-hr {
-    margin-top:100px ;
-    margin-bottom: 100px;
-    border-top: 4px solid rgb(232, 10, 10);
-}
-
-.new3 {
-    border-top: 4px solid white;
-}
-
-button{
-    margin-left: 4px;
-    
-}
-
-.devblog{
-    font-size: 40px;
-}
-
-
- 
-
+  }
