@@ -1,80 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/main.css">
     
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <link rel="stylesheet" href="/main.css">
-  <script>
-    function myFunction() {
-var element = document.body;
-element.classList.toggle("dark-mode");
-}
-</script>
-  
 
-  <title>Dev'Blog </title>
+
+    <title>Dev'Blog </title>
 </head>
-<body class="dark-mode">
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"></a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      
-     
-    </ul>
-  </div>
-</nav>
-  
-<div class="container">
-  <h3>Navbar With Dropdown</h3>
-  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
+<body style="margin-top: 50px" >
+
+<div class="">
+    <img src="/images/Black and White Green Blue Basic Flow Chart Brainstorm Presentation.png" alt="" class="responsive">
 </div>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#">Dev's Blog</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          
-          <form class="navbar-form navbar-left" action="/action_page.php">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-              <button type="submit" class="btn btn-default">Submit</button>
-            </div>
-            
-          </form>
-          
-          <li><button onclick="myFunction()"><span class="glyphicon glyphicon-adjust" style="size :40px;" ></span></button></li>
-        </ul>
-        
-      </div>
+    <div>
+        <script id="replace_with_navbar" src="nav.js"></script>
     </div>
-  </nav>
+
+
+    <! -- ------------------------------------------------ Web Basics--------------------------------------------------------------------- -->
     
-  <div class="container">
-    <h3>Collapsible Navbar</h3>
-    <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
-    <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-  </div>
+    <div id="webbasics">
+        <script id="replace_with_webbasics" src="webbasics.js"></script>
+    </div>
+
+
+    <! -- ------------------------------------------------ wireframing------------------------------------------------------------- -->
+
+    <div id="wireframing">
+        <script id="replace_with_wireframing" src="wireframing.js"></script>
+    </div>
+   
+
+    <! -- ------------------------------------------------ Basic HTML Tags------------------------------------------------------------- -->
+
+    <div id="basic-html-tags">
+        <script id="replace_with_basic-html" src="basic-html.js"></script>
+    </div>
+    
+    <! -- ----------------------------------------First Website Using VScode ------------------------------------------------ -->
+
+     <div id="First-Website-Using-VScode">
+        <script id="replace_first-website-using-VScode" src="/first-website-using-VScode.js"></script>
+    </div>
+
+
+
 
 </body>
+
 </html>
