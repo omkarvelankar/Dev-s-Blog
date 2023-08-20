@@ -1,4 +1,4 @@
-fetch('nav.html')
+fetch('https://github.com/omkarvelankar/Dev-s-Blog/blob/main/nav.js')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#replace_with_navbar");
